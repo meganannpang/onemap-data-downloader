@@ -4,6 +4,7 @@ import os
 import pandas as pd
 from shapely.geometry import mapping, Polygon, Point, LineString
 import json
+from pathlib import Path
 
 # Disable the submit button after it is clicked 
 def disable_login():
@@ -151,7 +152,7 @@ def main():
                 themes = [theme["THEMENAME"] for theme in themes_data]
                 with st.form(key='theme_selection_form'):
                     selected_theme = st.multiselect("Select Theme(s):", themes)
-                    download_path = st.text_input("Enter Download Path:", value=os.path.expanduser("~/Desktop"))
+                    download_path = st.text_input("Enter Download Path:", value=str(Path.home() / "Downloads"))
                     submit_theme_selection = st.form_submit_button(label='Download Themes', on_click=disable_download, disabled=st.session_state.download_disabled)
 
     if submit_theme_selection:

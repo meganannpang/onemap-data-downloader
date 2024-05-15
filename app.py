@@ -35,7 +35,7 @@ def return_menu():
     st.session_state.stage = 0
     
 def thank_you():
-    thanks = st.success('Success, thank you!', icon="✅")
+    thanks = st.toast('Success, thank you!', icon="✅")
     time.sleep(3) # Wait for 3 seconds
     thanks.empty() # Clear the alert
     # Clear session state related to login

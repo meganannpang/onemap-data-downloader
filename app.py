@@ -238,9 +238,16 @@ def main():
         padding: 10px;
         color: #333333;
     }
+    .footer a {
+        color: #333333;
+        text-decoration: none;
+        margin: 0 5px;
+    }
     </style>
     <div class="footer">
-    <p>made with ♡ by @meganannpang</p>
+        <p>made by @meganannpang :-)</p>
+        <a href="https://bit.ly/megancv">website</a>
+        <a href="https://www.linkedin.com/in/megan-ann-pang/">linkedin</a>
     </div>
     """
     st.markdown(footer, unsafe_allow_html=True)

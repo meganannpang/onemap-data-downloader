@@ -239,15 +239,13 @@ def main():
         color: #333333;
     }
     .footer a {
-        color: #333333;
+        color: #0077cc; 
         text-decoration: none;
         margin: 0 5px;
     }
     </style>
     <div class="footer">
-        <p>made by @meganannpang :-)</p>
-        <a href="https://bit.ly/megancv">website</a>
-        <a href="https://www.linkedin.com/in/megan-ann-pang/">linkedin</a>
+        <p>made by <a href="https://www.linkedin.com/in/megan-ann-pang/" target="_blank">@meganannpang</a> :-)</p>
     </div>
     """
     st.markdown(footer, unsafe_allow_html=True)

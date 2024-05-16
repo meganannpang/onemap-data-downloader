@@ -59,23 +59,14 @@ The zip file containing all the selected themes will be downloaded to the Downlo
 
 - Files are named using the convention `{queryname}.csv` for point data and `{queryname}.geojson` for line and polygon data.
 
-## Getting Started
-
-1. Clone the repository.
-2. Install the necessary dependencies.
-3. Run the application.
-4. Authenticate using your OneMap API credentials.
-5. Select and manage themes as desired.
-6. Confirm your selection and download the zip file with the fetched data.
-
 ## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
 
-## Contact
+## Disclaimer
 
-For any questions or support, please open an issue in the repository or contact the maintainer.
+This app was developed as a personal passion project. Feel free to use it at your own risk. 
 
 ---
 
-This README provides an overview of the OneMap API Theme Downloader application, detailing its functionality and usage. It is also generated. For more details about the project, you may visit my Notion page: bit.ly/proj-omdl
+This README provides an overview of the OneMap API Theme Downloader application, detailing its functionality and usage. It is also AI generated. For more details about the project, you may visit my Notion page: bit.ly/proj-omdl
